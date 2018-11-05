@@ -1,0 +1,33 @@
+{
+  "name": "shri-flux",
+  "version": "0.0.1",
+  "scripts": {
+    "tests": "mocha --require @babel/register ./test/*.spec.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.5.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-import-resolver-alias": "^1.1.0",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "prettier": "1.14.2",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-plugin-prettier": "^2.0.0"
+  }
+}
