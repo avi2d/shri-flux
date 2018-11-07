@@ -1,4 +1,4 @@
-import { ADD_TODO } from './actions';
+import { ADD_TODO } from './actionTypes';
 
 function id(state = []) {
   return (
